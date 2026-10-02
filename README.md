@@ -144,7 +144,7 @@ Todos os endpoints utilizam a URL: `/api/chamados.php`
 
 ```json
 {
-  "Mensagem": "Produto excluído com sucesso!"
+  "Mensagem": "Chamado excluído com sucesso!"
 }
 ```
 
