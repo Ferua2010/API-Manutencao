@@ -89,7 +89,7 @@ if($metodo == "DELETE"){
 
     $dados = json_decode($json,true);
 
-    $sql = "DELETE FROM produtos WHERE id=? ";
+    $sql = "DELETE FROM chamados WHERE id=? ";
 
    $comando = $pdo -> prepare($sql);
     
@@ -97,5 +97,5 @@ if($metodo == "DELETE"){
         $dados["id"]
     ]);
 
-    echo json_encode(["Mensagem"=>"Produto excluído com sucesso!"]);
+    echo json_encode(["Mensagem"=>"Chamado excluído com sucesso!"]);
 }
